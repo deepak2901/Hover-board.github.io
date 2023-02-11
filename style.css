@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 body{
@@ -30,7 +30,7 @@ body{
     transition: 2s ease;
 }
 
-.square :hover{
-    transition-duration: 2s;
+.square:hover{
+    transition-duration: 0s;
 
 }

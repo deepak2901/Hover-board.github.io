@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
 const colors = ['#e74c3c' , '#8e44ad' , '#3498db' , '#e67e22' , '#2ecc71']
-const squares = 650;
+const squares = 540;
 
 for(let i = 0; i < squares; i++){
     const square = document.createElement('div');
@@ -21,7 +21,7 @@ const setColor = (square) => {
 
 const removeColor = (square) => {
     square.style.background = '#1d1d1d';
-    square.style.boxShadow = '0 0 2px #000';
+    square.style.boxShadow = '0 0 2px #000 0 0 10px ${color}';
 }
 
 const getRandomColor = () => {
